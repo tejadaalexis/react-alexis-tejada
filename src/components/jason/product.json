@@ -1,0 +1,110 @@
+[
+    {
+        "idx": 1,
+        "titulo": "Buzo",
+        "descripcion": "Canguro Florida Jacksonville Negro",
+        "imagen": "/img_product/buzo1.jpg",
+        "precio": 6500,
+        "categoria": "Buzos",
+        "stock": 5
+    },
+    {
+        "idx": 2,
+        "titulo": "Buzo",
+        "descripcion": "Canguro Energy Negro",
+        "imagen": "/img_product/buzo2.jpg",
+        "precio": 6500,
+        "categoria": "Buzos",
+        "stock": 6
+    },
+    {
+        "idx": 3,
+        "titulo": "Buzo",
+        "descripcion": "camguro Clasico Verde",
+        "imagen": "/img_product/buzo3.jpg",
+        "precio": 6550,
+        "categoria": "Buzos",
+        "stock": 7
+    },
+    {
+        "idx": 4,
+        "titulo": "Campera",
+        "descripcion": "Rompeviento Verde",
+        "imagen": "/img_product/campera1.jpg",
+        "precio": 8000,
+        "categoria": "Camperas",
+        "stock": 5
+    },
+    {
+        "idx": 5,
+        "titulo": "Campera",
+        "descripcion": "Campera Lion Camel",
+        "imagen": "/img_product/campera2.jpg",
+        "precio": 8000,
+        "categoria": "Camperas",
+        "stock": 2
+    },
+    {
+        "idx": 6,
+        "titulo": "Campera",
+        "descripcion": "Campera Galactica Camel",
+        "imagen": "/img_product/campera3.jpg",
+        "precio": 8000,
+        "categoria": "Camperas",
+        "stock": 5
+    },
+    {
+        "idx": 7,
+        "titulo": "Remera",
+        "descripcion": "Red Hot Chilli Peppers",
+        "imagen": "/img_product/remera1.jpg",
+        "precio": 4900,
+        "categoria": "Remeras",
+        "stock": 5
+    },
+    {
+        "idx": 8,
+        "titulo": "Remera",
+        "descripcion": "Nirvana",
+        "imagen": "/img_product/remera2.jpg",
+        "precio": 4900,
+        "categoria": "Remeras",
+        "stock": 6
+    },
+    {
+        "idx": 9,
+        "titulo": "Remera",
+        "descripcion": "Mortal-Kombat",
+        "imagen": "/img_product/remera3.jpg",
+        "precio": 4900,
+        "categoria": "Remeras",
+        "stock": 3
+    },
+    {
+        "idx": 10,
+        "titulo": "Pantalon",
+        "descripcion": "Clasica Gris Melange",
+        "imagen": "/img_product/pantalon1.jpg",
+        "precio": 7700,
+        "categoria": "Pantalones",
+        "stock": 5
+    },
+    {
+        "idx": 11,
+        "titulo": "Pantalon",
+        "descripcion": "Pantalon Slim Elastizado Verde",
+        "imagen": "/img_product/pantalon2.jpg",
+        "precio": 7700,
+        "categoria": "Pantalones",
+        "stock": 4
+    },
+    {
+        "idx": 12,
+        "titulo": "Pantalon",
+        "descripcion": "Media Tira con Cierre Negro",
+        "imagen": "/img_product/pantalon3.jpg",
+        "precio": 7700,
+        "categoria": "Pantalones",
+        "stock": 3
+    }
+]

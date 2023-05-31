@@ -1,18 +1,23 @@
-const Navbar = () => {
+import {NavLink} from "react-router-dom";
+
+const NavBar = () => {
     return (
 
         <ul className="nav d-flex justify-content-end">
             <li className="nav-item">
-                <a className="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
+                <NavLink className="nav-link active text-dark" aria-current="page" to={"/"}>Inicio</NavLink>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="#">Contacto</a>
+                <NavLink className="nav-link text-dark" to={"/category/Remeras"}>Remeras</NavLink>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="#">Nostros</a>
+                <NavLink className="nav-link text-dark" to={"/category/Pantalones"}>Pantalones</NavLink>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="#">Productos</a>
+                <NavLink className="nav-link text-dark" to={"/category/Buzos"}>Buzos</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link text-dark" to={"/category/Camperas"}>Camperas</NavLink>
             </li>
         </ul>
 
@@ -20,4 +25,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default NavBar;
