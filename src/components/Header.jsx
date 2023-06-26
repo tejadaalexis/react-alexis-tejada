@@ -11,7 +11,7 @@ const Header = () => {
                     <Link to={"/"}><img src={crip} alt={"crip1"} width={150} /></Link>
                 </div>
                 <div className="col-md-6 text-end">
-                    <a href="#" className="text-decoration-none text-dark">Buscar</a>
+                    <Link to={"/"} className="text-dark text-decoration-none">Buscar Tienda</Link>
                 </div>
                 <div className="row bg-info-subtle p-4">
                     <div className="col text-center text-dark">

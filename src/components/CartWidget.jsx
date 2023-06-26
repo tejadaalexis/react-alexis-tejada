@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
+import { CartContext } from "./context/CartContext";
+import { useContext } from "react";
 import carrito from "../components/images/carrito.svg";
 
-const CartWidget =() => {
-    return(
-        <button type="button" className="btn btn-light">
-            <img src={carrito} alt="Carrito de compra" width={25} />
-            <span className="badge text-bg-danger">10</span>
-        </button>
+const CartWidget = () => {
+    const {cartTotal} = useContext(CartContext);
+
+    return (
+        (cartTotal() > 0) ? <Link className="btn btn-light position-relative" to={"/cart"}>
+            <img src={carrito} alt="Carrito" width={24} />
+            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{cartTotal()}</span>
+        </Link> : ""
     )
 }
 
